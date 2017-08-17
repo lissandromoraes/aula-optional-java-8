@@ -25,6 +25,7 @@ public class ConsultaCobertura {
 			}
 		}*/
 		
+		// teste lissandro
 		String cobertura = motoristas.porNome("João")
 								.flatMap(Motorista::getCaminhao)
 								.flatMap(Caminhao::getSeguro)

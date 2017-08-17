@@ -15,6 +15,7 @@ public class Motoristas {
 
 	public Motoristas() {
 		Seguro seguro = new Seguro("Parcial - não cobre roubo", new BigDecimal("5000"));
+		
 		Caminhao caminhao = new Caminhao("Mercedes Atron", Optional.ofNullable(seguro));
 		Optional<Motorista> motoristaJoao = Optional.of(new Motorista("João", 40, Optional.ofNullable(caminhao)));
 		
